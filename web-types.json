@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/v2-preview/web-types.json",
+  "name": "web-kit-spa-prime",
+  "framework": "vue",
+  "version": "1.0.0",
+  "contributions": {
+    "html": {
+      "vue-directives": [
+        {
+          "name": "ripple",
+          "description": "VuePrime Ripple Directive"
+        },
+        {
+          "name": "styleclass",
+          "description": "VuePrime Style Class Directive"
+        },
+        {
+          "name": "tooltip",
+          "description": "VuePrime Tooltip Directive",
+          "modifiers": [
+            {
+              "name": "bottom",
+              "description": "Display tooltip at the bottom"
+            },
+            {
+              "name": "top",
+              "description": "Display tooltip at the top"
+            },
+            {
+              "name": "right",
+              "description": "Display tooltip at the right"
+            },
+            {
+              "name": "left",
+              "description": "Display tooltip at the left"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
